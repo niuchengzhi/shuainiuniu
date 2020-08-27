@@ -1,0 +1,282 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #mask {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.05);
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            display: none;
+        }
+        
+        .nain {
+            width: 400px;
+            height: 500px;
+            background-color: rgba(0, 0, 0, .06);
+            z-index: 10000;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -300px;
+            margin-left: -200px;
+        }
+        
+        .pox {
+            width: 380px;
+            height: 485px;
+            background-color: #fff;
+            position: absolute;
+            left: 10px;
+            top: 7px;
+        }
+        
+        .head {
+            width: 380px;
+            height: 31px;
+            line-height: 31px;
+            background-color: #f3f3f3;
+        }
+        
+        .head span {
+            margin-left: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .head img {
+            margin-left: 240px;
+        }
+        
+        .form {
+            width: 380px;
+            height: 455px;
+            background-color: #fff;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        .coagent {
+            width: 350px;
+            height: 91px;
+            padding: 20px 40px 0;
+            box-sizing: border-box;
+        }
+        
+        .tit {
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .tit h3 {
+            width: 170px;
+            height: 20px;
+            font-size: 16px;
+            color: #8c8c8c;
+            margin-left: 52px;
+            position: relative;
+            z-index: 2;
+            background-color: #fff;
+            font-weight: normal;
+            box-sizing: border-box;
+        }
+        
+        .tit span {
+            position: absolute;
+            z-index: 1;
+            left: 0;
+            right: 0;
+            top: 9px;
+            height: 1px;
+            border-bottom: 1px dashed #e5e5e5;
+        }
+        
+        .login-box {
+            width: 350px;
+            height: 345px;
+            padding: 0px 40px 0px;
+            box-sizing: border-box;
+        }
+        
+        .login-box .tit h3 {
+            width: 92px;
+            height: 20px;
+            font-size: 16px;
+            color: #8c8c8c;
+            margin-left: 89px;
+            position: relative;
+            z-index: 2;
+            background-color: #fff;
+            font-weight: normal;
+            box-sizing: border-box;
+        }
+        
+        .coagent-warp {
+            width: 270px;
+            height: 36px;
+            margin-top: 20px;
+            position: relative;
+        }
+        
+        .coagent-warp b {
+            display: block;
+            width: 36px;
+            height: 36px;
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            z-index: 2;
+            margin-left: -18px;
+            background: url(../image/102.png) 0px 0px;
+            cursor: pointer;
+        }
+        
+        .coagent-warp b:hover {
+            background: url(../image/102.png) 36px 0px;
+        }
+        
+        .msg-wrap {
+            height: 25px;
+        }
+        
+        .form1 {
+            width: 270px;
+            height: 228px;
+        }
+        
+        .form1 .item-info {
+            position: relative;
+            width: 268px;
+            height: 38px;
+            line-height: 38px;
+            border: 1px solid #d2d2d2;
+            margin-top: 8px;
+        }
+        
+        .form1 .iconfont {
+            position: absolute;
+            color: #e8e8e8;
+            left: 10px;
+            top: 11px;
+            font-size: 18px;
+            width: 18px;
+            height: 18px;
+            line-height: 18px;
+        }
+        
+        .form1 .text {
+            border: 0;
+            width: 223px;
+            padding: 7px 10px 2px 35px;
+            height: 28px;
+            outline: none;
+            font-size: 12px;
+        }
+        
+        .form1 .text-2 {
+            border: 0;
+            width: 222px;
+            padding: 7px 10px 2px 35px;
+            height: 28px;
+            outline: none;
+            font-size: 12px;
+        }
+        
+        .item-info img {
+            width: 112px;
+            height: 37px;
+            position: absolute;
+            right: 2px;
+            top: 1px;
+            cursor: pointer;
+        }
+        
+        .item-button {
+            width: 270px;
+            height: 40px;
+            padding: -3px 10px 2px 0px;
+            cursor: pointer;
+        }
+        
+        .item-button .btn {
+            width: 270px;
+            height: 40px;
+            font-size: 16px;
+            font-weight: bold;
+            outline: none;
+            border: 0;
+            border-radius: 3px;
+            background: #f42424;
+            color: #fff;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+        
+        .item-button .btn:hover {
+            opacity: .8;
+        }
+        
+        .wang {
+            width: 270px;
+            height: 20px;
+            padding: 18px 10px 2px 0px;
+        }
+        
+        .wang span {
+            color: #8c8c8c;
+            font-size: 12px;
+        }
+        
+        .wang span:hover {
+            color: #f42424;
+        }
+        
+        .item {
+            width: 270px;
+            height: 25px;
+            margin-top: 10px;
+        }
+        
+        .item:hover {
+            color: #f42424;
+        }
+        
+        .item1:hover {
+            border-color: #f42424;
+        }
+        
+        .item1 {
+            width: 11px;
+            height: 11px;
+            border: 1px solid #666;
+            float: left;
+            margin-top: 6px;
+            cursor: pointer;
+        }
+        
+        .active {
+            background: url("../image/niucheng2.png") no-repeat 0px 0px;
+        }
+        
+        .ui-label {
+            font-size: 13px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+        
+        .wang a {
+            text-decoration: none;
+            color: #8c8c8c;
+            font-size: 12px;
+            margin-left: 164px;
+        }
+        
+        .wang a:hover {
+            color: #f42424;
+            text-decoration: underline;
+        }

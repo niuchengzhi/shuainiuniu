@@ -1,0 +1,314 @@
+.coods_top_main {
+    width: 100%;
+    height: 850px;
+    margin-bottom: 30px;
+}
+
+.coods_top_main_top {
+    width: 100%;
+    height: 40px;
+    background-color: #F8F8F8;
+    margin-top: -10px;
+    color: black;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.coods_top_main_top_u1 {
+    width: 60%;
+    padding-top: 7px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.coods_top_main_top_u1 div {
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.coods_top_main_top #jiu1 {
+    position: absolute;
+    top: 30px;
+    width: 200px;
+    height: 90px;
+    display: none;
+    font-size: 13px;
+    color: #555555;
+    background-color: white;
+    overflow: hidden;
+}
+
+#jiu1 ul {
+    width: 100%;
+    padding-left: 4px;
+    height: 100%;
+    padding-top: 15px;
+}
+
+#jiu1 ul li {
+    float: left;
+    width: 33%;
+    height: 28px;
+    text-align: center;
+    line-height: 30%;
+    font-size: 12px;
+}
+
+.jiu2 {
+    position: absolute;
+    left: 172px;
+    top: 34px;
+    width: 250px;
+    height: 160px;
+    background-color: white;
+    overflow: hidden;
+    font-size: 13px;
+    color: #555555;
+    display: none;
+    z-index: 2;
+}
+
+.jiu2 ul {
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+}
+
+.jiu2 ul li {
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    float: left;
+}
+
+.coods_top_main_top_u1 span {
+    padding: 3px 7px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    margin-right: 10px;
+    position: relative;
+    z-index: 553;
+    background-color: white;
+}
+
+.udb {
+    border: 1px solid red !important;
+}
+
+.butnhh {
+    border-top: 1px solid red !important;
+    border-left: 1px solid red !important;
+    border-right: 1px solid red !important;
+    border-bottom: 8px solid #F8F8F8 !important;
+}
+
+.coods_top_main_top_u1 b {
+    margin-top: 4px;
+    margin-left: 2px;
+}
+
+.coods_top_main_main {
+    width: 80%;
+    height: 500px;
+    float: left;
+}
+
+.abb {
+    z-index: 888;
+}
+
+.coods_top_main_main_left {
+    width: 40%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.mst_img {
+    width: 100%;
+    height: 80%;
+    border: 1px solid #ccc;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.mst_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.mst_img_botm {
+    width: 100%;
+    height: 80px;
+    border: 1px solid #ccc;
+}
+
+.mst_img_botm div {
+    width: 43px;
+    height: 100%;
+    background: white;
+    font-size: 19px;
+    text-align: center;
+    line-height: 80px;
+    color: #555555;
+    cursor: pointer;
+}
+
+.mst_img_botm li :hover {
+    border: 1px solid red;
+}
+
+.imgbox {
+    width: 400px;
+    height: 470px;
+    position: absolute;
+    border: 1px solid #ccc;
+    right: -410px;
+    overflow: hidden;
+    margin-left: 50px;
+    display: none;
+}
+
+.imgbox img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.msk {
+    width: 130px;
+    height: 160px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(99, 99, 99, 0.3);
+    display: none;
+}
+
+.mst_img_botm .uls {
+    width: 72%;
+    height: 100%;
+    margin-right: 0;
+    float: left;
+    overflow: hidden;
+}
+
+.ulsbox {
+    overflow: hidden;
+    width: 180%;
+    height: 80%;
+    position: relative;
+}
+
+
+/* .mst_img_botm .uls ul {
+    height: 200%;
+    width: 300%;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+
+/* #nbhh {} */
+
+.mst_img_botm ul li {
+    height: 100%;
+    width: 80px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.mst_img_botm ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.mst_left {
+    float: left;
+}
+
+.mst_right {
+    float: right;
+}
+
+.coods_top_main_main_right {
+    width: 60%;
+    height: 100%;
+    background-image: url("img/QQ图片20200816164605.png");
+    background-size: 100%;
+    float: left;
+}
+
+.coods_top_main_right {
+    width: 20%;
+    height: 500px;
+    float: right;
+    /* background-color: red; */
+    padding: 0px 30px;
+}
+
+.coods_top_main_right h3 {
+    text-align: center;
+    font-size: 15px;
+    color: #555555;
+    font-weight: 600;
+}
+
+hr {
+    margin-top: 6px;
+}
+
+.ulsbox {
+    margin-top: 9px;
+    width: 100%;
+    height: 98%;
+    position: relative;
+}
+
+.ulsbox ul {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ulsbox ul li {
+    width: 100%;
+    height: 50%;
+    float: left;
+    background-color: azure;
+    transition: all 1s;
+}
+
+
+/* .ulsbox ul li:hover {
+    transform: rotateX(360deg);
+} */
+
+.ulsbox ul li img {
+    width: 100%;
+    height: 79%;
+}
+
+.ulsbox ul li p {
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+.ulsbox ul li h6 {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+    font-size: 13px;
+}
